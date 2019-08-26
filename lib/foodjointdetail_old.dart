@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:what_not_to_miss/types/foodJoint.dart';
-import 'constants.dart';
 
 class FoodJointDetail extends StatelessWidget {
   FoodJointDetail({Key key, @required this.foodJoint})
@@ -39,11 +38,10 @@ class FoodJointDetail extends StatelessWidget {
       children: <Widget>[
         Container(
             padding: EdgeInsets.only(left: 10.0),
-            decoration: new BoxDecoration(
-              image: new DecorationImage(
-                //image: foodJoint.main_image == null ? AssetImage("images/places/goa-city.jpg") :
-                //NetworkImage("$APP_HOST/${foodJoint.main_image}"),
-                image: NetworkImage("https://media-cdn.tripadvisor.com/media/photo-s/0c/3d/96/5f/the-cook-in-the-background.jpg"),
+            decoration: BoxDecoration(color: Color.fromRGBO(58, 66, 86, .9)),
+            child: Center(
+              child: Ink.image(
+                image: new AssetImage("images/places/gurgaon-city.jpg"),
                 fit: BoxFit.cover,
               ),
             )),
@@ -70,7 +68,7 @@ class FoodJointDetail extends StatelessWidget {
 
   Widget bottomContentText() {
     return Text(
-      foodJoint.description,
+      "foodJoint.description",
       style: TextStyle(fontSize: 18.0),
     );
   }

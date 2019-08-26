@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:what_not_to_miss/constants.dart';
-import 'package:what_not_to_miss/foodjointdetail.dart';
+import 'package:what_not_to_miss/food_joint_detail.dart';
 import 'package:what_not_to_miss/types/foodJoint.dart';
 import 'dart:async';
 

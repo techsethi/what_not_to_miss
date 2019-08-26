@@ -36,11 +36,12 @@ dev_dependencies:
   flutter_launcher_icons: "^0.7.2"
 
 flutter_icons:
-  android: "launcher_icon" 
+  # android: "launcher_icon" 
+  android: true
   ios: true
-  image_path: "images/diet.png"
-  # adaptive_icon_background: "images/background.png" 
-  # adaptive_icon_foreground: "images/adaptive-fg.png" 
+  image_path: "images/food-24.png"
+  #adaptive_icon_background: "#ffffff" 
+  #adaptive_icon_foreground: "images/food-32.png" 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -57,14 +58,8 @@ flutter:
   assets:
     - images/street-food-india-small.jpg
     - images/street-food-india-medium.jpg
-    - images/places/agra-city.jpg
-    - images/places/amritsar-city.jpg
-    - images/places/chandigarh-city.jpg
-    - images/places/delhi-city.jpg
-    - images/places/gurgaon-city.jpg
-    - images/places/dubai-city.jpg
-    - images/places/varanasi-city.jpg
-    - images/places/goa-city.jpg
+    # add whole places folder
+    - images/places/
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

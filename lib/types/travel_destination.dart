@@ -69,7 +69,7 @@ const List<TravelDestination> destinations = <TravelDestination>[
   TravelDestination(
     assetName: 'images/places/shirdi-city.jpg',
     title: 'Jai Sai Ram',
-    city: 'shirdi',
+    city: 'Shirdi',
   ),
   TravelDestination(
     assetName: 'images/places/jaipur-city.jpg',
