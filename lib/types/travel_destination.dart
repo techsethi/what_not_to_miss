@@ -56,4 +56,24 @@ const List<TravelDestination> destinations = <TravelDestination>[
     title: 'Endless Shopping',
     city: 'Dubai',
   ),
+  TravelDestination(
+    assetName: 'images/places/shimla-city.jpg',
+    title: 'The Queen of Hills',
+    city: 'Shimla',
+  ),
+  TravelDestination(
+    assetName: 'images/places/dehradun-city.jpg',
+    title: 'The Gateway to Mussorie',
+    city: 'Dehradun',
+  ),
+  TravelDestination(
+    assetName: 'images/places/shirdi-city.jpg',
+    title: 'Jai Sai Ram',
+    city: 'shirdi',
+  ),
+  TravelDestination(
+    assetName: 'images/places/jaipur-city.jpg',
+    title: 'The Pink City',
+    city: 'jaipur',
+  ),
 ];
