@@ -1,10 +1,10 @@
-# splashpage
+# What Not to Miss
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter application. The SDK can be downloaded from https://what-not-to-miss-cms.herokuapp.com/
 
 A few resources to get you started if this is your first Flutter project:
 
